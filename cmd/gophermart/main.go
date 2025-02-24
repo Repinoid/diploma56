@@ -15,7 +15,7 @@ import (
 
 var host = "localhost:8081"
 
-// пока без горутин select for update и проч
+// пока без горутин select for update и проч 
 
 func main() {
 	logger, err := zap.NewDevelopment()
